@@ -120,6 +120,9 @@ class Model:
             )
 
             def sampledSoftmax(inputs, labels):
+                tmp=inputs
+                inputs=labels
+                labels=tmp
                 labels = tf.reshape(labels, [-1, 1])  # Add one dimension (nb of true classes, here 1)
 
                 # We need to compute the sampled_softmax_loss using 32bit floats to
