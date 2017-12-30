@@ -4,6 +4,7 @@ Training deep LSTM neural networks to model conversations as a part of the [PAUS
 Project by [Gautam Mittal](http://www.gautam.cc)<br />
 Mentor: [Melanie Tory](https://research.tableau.com/user/melanie-tory)
 
+Update (December 30, 2017): [Spamnesty](https://spa.mnesty.com/) does exactly what this project explores. It looks awesome, plus it has been deployed and is doing some real good.
 
 ### Installation
 The following dependencies are required:
